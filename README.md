@@ -2,4 +2,4 @@
 Static example of data visualization by using [d3.js](https://d3js.org/).           
 
 ## usage
-just start in browser index.html via http 
+just start index.html in browser via http 
