@@ -1,0 +1,181 @@
+body {
+    padding: 0;
+    margin: 0;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
+    color: #444;
+}
+
+#app {
+    color: #444;
+    font-size: 14px;
+    margin: 10px 10px 10px 50px;
+}
+
+.screen {
+    margin: 20px 0 0 0;
+}
+
+.chart-screen {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.chart {
+    position: relative;
+    width: 100%;
+    display: none;
+}
+
+.toolbar {
+    position: relative;
+    overflow: hidden;
+}
+
+.toolbar_chart-name {
+    float: left;
+    margin: 16px 0 0 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.toolbar_chart-name span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.switches {
+    float: left;
+    overflow: hidden;
+}
+
+.switch {
+    cursor: pointer;
+    float: left;
+    margin: 4px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    padding: 2px;
+    width: 35px;
+    height: 35px;
+}
+
+.switch.act {
+    box-shadow: 2px 2px orange;
+}
+
+.switch img {
+    width: 100%;
+    height: 100%;
+}
+
+.tooltip {
+    color: blue;
+    position: absolute;
+    opacity: .9;
+    display: none;
+    min-height: 40px;
+    min-width: 100px;
+    background-color: #fff;
+    border: 2px solid #00aecd;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.tooltip div {
+    margin: 2px 0;
+}
+
+.tooltip_date {
+    color: black;
+    font-size: 13px;
+}
+
+.tooltip_name {
+    color: grey;
+}
+
+.tooltip_cost {
+    color: orange;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+
+/*
+    svg styles
+*/
+svg {
+
+}
+
+svg .axis {
+    color: grey
+}
+
+svg .axis text {
+    shape-rendering: crispEdges;
+}
+
+svg .x.axis .tick text {
+    /* color:red;*/
+}
+
+/*TODO:*/
+.axis path,
+.axis line {
+    fill: none;
+    /*stroke: #000;*/
+    stroke: grey;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    /*display: none;*/
+}
+
+#pie .arc text {
+    font: 12px sans-serif;
+    text-anchor: middle;
+    fill: #fff;
+}
+
+#pie .arc text.total {
+    font-size: 24px
+}
+
+#pie .arc path {
+    stroke: #fff;
+}
+
+#pie .title {
+    fill: teal;
+    font-weight: bold;
+}
+
+.bar {
+
+}
+
+
+
+
+
+
+

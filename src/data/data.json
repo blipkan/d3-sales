@@ -1,0 +1,32 @@
+[
+   {
+      "Date":"2018-01-12",
+      "Cloud Provider":"Amazon",
+      "Cost8":"38405.96871364431"
+   },
+   {
+      "Date":"2018-01-12",
+      "Cloud Provider":"Azure",
+      "Cost8":"14716.917744301485"
+   },
+   {
+      "Date":"2018-01-13",
+      "Cloud Provider":"Amazon",
+      "Cost8":"13368.080682349526"
+   },
+   {
+      "Date":"2018-01-13",
+      "Cloud Provider":"Azure",
+      "Cost8":"14684.558542948031"
+   },
+   {
+      "Date":"2018-01-14",
+      "Cloud Provider":"Azure",
+      "Cost8":"14399.680139491291"
+   },
+   {
+      "Date":"2018-01-15",
+      "Cloud Provider":"Azure",
+      "Cost8":"1240.9847228087549"
+   }
+]

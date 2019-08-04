@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Charts</title>
+
+    <link rel="stylesheet" href="css/main.css?v=1">
+</head>
+<body>
+
+<div id="app">
+    <h1>Charts</h1>
+    <div class="toolbar">
+        <div class="switches">
+            <div class="switch" data-chart="pie" title="Pie"><img src="img/pie.png" alt="Pie"/></div>
+            <div class="switch" data-chart="cluster" title="Clusterbar"><img src="img/cluster.png" alt="Clusterbar"/></div>
+            <div class="switch" data-chart="stack" title="Stackbar"><img src="img/stack.png" alt="Stackbar"/></div>
+        </div>
+        <div class="toolbar_chart-name"><span> &#8592;&#171; Please, select chart to view ...</span></div>
+    </div>
+    <div class="screen">
+        <div id="stack" class="chart svg-container"></div>
+        <div id="cluster" class="chart svg-container"></div>
+        <div id="pie" class="chart svg-container"></div>
+    </div>
+</div>
+
+
+<script src="js/vendor/d3/v5.9.7/d3.min.js"></script>
+<script src="js/vendor/jquery-3.4.1.min.js"></script>
+<script src="js/index.js?v=1" type="module"></script>
+</body>
+</html>

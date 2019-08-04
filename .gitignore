@@ -1,0 +1,6 @@
+﻿.idea
+*.iml
+*.ipr
+src/js/vendor/d3/v5.9.7/d3.js
+
+
