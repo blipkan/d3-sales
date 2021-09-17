@@ -102,10 +102,10 @@ function show(model, selHolder) {
         .style("fill", function (d) {
             return color(d.key)
         })
-        .attr("y", function (d) {
+        .attr("y", function () {
             return y(0);
         })
-        .attr("height", function (d) {
+        .attr("height", function () {
             return height - y(0);
         })
         .attr("class", "bar")
@@ -122,7 +122,7 @@ function show(model, selHolder) {
     $('.bar').on("mouseover", function (e) {
         Tooltip.show(e)
     })
-        .on("mouseout", function (e) {
+        .on("mouseout", function () {
             Tooltip.hide()
         })
         .on("mousemove", function (e) {
@@ -132,10 +132,9 @@ function show(model, selHolder) {
 
     slice.selectAll("rect")
         .transition()
-        .delay(function (d) {
+        .delay(function () {
             return Math.random() * 1000;
         })
-        //.duration(1000)
         .duration(800)
         .attr("y", function (d) {
             return y(d.cost);
@@ -154,7 +153,7 @@ function show(model, selHolder) {
 
 function getSvgRoot(selHolder) {
 
-    ///temporaly do not hold the svg instance
+    /*temporaly do not hold the svg instance*/
     svgRoot = null;
     $(selHolder).html('');
 
